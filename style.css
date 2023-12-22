@@ -1,0 +1,183 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+@import 'reset.css';
+:root {
+    --color-title: #070707;
+    --color-secondary: #828282;
+    --font-main-md: 'Gilroy-Medium', sans-serif;
+    --font-main-bold: 'Gilroy-Bold', sans-serif;
+}
+
+.about {
+    max-width: 1445px;
+    color: var(--color-title);
+    margin: auto;
+    padding-top: 120.25px;
+}
+
+.title {
+    color: var(--color-title);
+    font-family: var(--font-main-bold);
+    text-align: center;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about__description {
+    margin-top: 20px;
+    color: var(--color-title);
+    font-family: var(--font-main-md);
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 485.344px;
+    margin: auto;
+    padding: 20px 0 107px 0;
+}
+
+.about__description-item {
+    margin-bottom: 49px;
+    text-align: center;
+    line-height: normal;
+}
+
+.about__description-item1 {
+    max-width: 317px;
+    margin: auto;
+}
+
+.skills {
+    max-width: 1445px;
+    margin: auto;
+}
+
+.skills-title {
+    margin-top: 91px;
+    margin-bottom: 69.1px;
+}
+
+.skills__subtitle {
+    margin-bottom: 83.49px;
+}
+
+.subtitle {
+    color: var(--color-title);
+    text-align: center;
+    font-family: var(--font-main-md);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.skills__cards {
+    display: flex;
+    max-width: 936.59px;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.skills__cards-card {
+    max-width: 166.461px;
+    height: 206.295px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills__cards-card p {
+    color: var(--color-secondary);
+    text-align: center;
+    font-family: var(--font-main-bold);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 79.292px;
+    height: 27.266px;
+}
+
+.skills__cards-card img {
+    width: 89.073px;
+    height: 88.413px;
+}
+
+.contacts {
+    max-width: 1445px;
+    margin: auto;
+    padding-top: 153.06px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts-subtitle {
+    margin-top: 20.03px;
+    margin-bottom: 29.6px;
+    width: 275.142px;
+    height: 44.065px;
+}
+
+.contacts button {
+    width: 180.5px;
+    height: 42px;
+    background-color: var(--color-title);
+    color: #FFF;
+    text-align: center;
+    font-family: var(--font-main-bold);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    border-radius: 35px;
+    margin-bottom: 86px;
+}
+
+.contacts__img {
+    width: 342.18px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 92.24px;
+}
+
+@media screen and (max-width:375px) {
+    .about {
+        padding-top: 74.8px;
+    }
+    .about__description {
+        max-width: 316px;
+        margin-top: 36.43px;
+        margin-bottom: 76px
+    }
+    .skills {
+        padding-top: 73.46px;
+    }
+    .skills__subtitle {
+        margin-top: 49.66px;
+    }
+    .skills__cards {
+        margin-top: 70.48px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills__cards-card {
+        margin-bottom: 69.06px;
+    }
+    .contacts {
+        margin-top: 74.67px;
+        padding: 0;
+    }
+    .contacts-subtitle {
+        margin-top: 26.85px;
+        margin-bottom: 67.32px;
+    }
+    .contacts button {
+        margin-bottom: 48px;
+    }
+    .contacts__img {
+        max-width: 314.11px;
+    }
+}
