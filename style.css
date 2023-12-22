@@ -76,6 +76,8 @@
     justify-content: space-between;
     margin: auto;
     flex-wrap: wrap;
+    gap: 69.1px;
+    justify-content: center;
 }
 
 .skills__cards-card {
@@ -175,7 +177,10 @@
         margin-bottom: 67.32px;
     }
     .contacts button {
-        margin-bottom: 48px;
+       margin-bottom: 48px;
+        border-radius: 50px;
+        width: 316px;
+        max-height: 42px;
     }
     .contacts__img {
         max-width: 314.11px;
